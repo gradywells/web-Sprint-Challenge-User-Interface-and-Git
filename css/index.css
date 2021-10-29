@@ -66,20 +66,20 @@ p {
     line-height: 1.4;
 }
 
-nav {
-    display:flex;
-    justify-content: space-between;
+.logo {
+
 }
 
 .links {
-    width:80%;
-    align-items:center;
-    text-align:center;
-    justify-content: center;
+
 }
 
-.logo {
-    width:20%;
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
 }
 
 .container {
