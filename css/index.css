@@ -66,6 +66,22 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+.links {
+    width:80%;
+    align-items:center;
+    text-align:center;
+    justify-content: center;
+}
+
+.logo {
+    width:20%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -83,6 +99,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.jumbo-image {
+    padding-top:30px;
+    padding-bottom:10px;
 }
 
 .middle-content {
